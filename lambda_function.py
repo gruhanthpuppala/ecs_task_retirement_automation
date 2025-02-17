@@ -3,7 +3,7 @@ import boto3
 
 ecs_client = boto3.client("ecs")
 
-CLUSTER_NAME = "poc-test-cluster"
+CLUSTER_NAME = "test-cluster"
 SERVICE_NAME = "nginx-service"
 
 def lambda_handler(event, context):

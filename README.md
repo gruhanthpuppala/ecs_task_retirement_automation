@@ -68,7 +68,7 @@ aws events put-events --entries '[
   {
     "Source": "custom.ecs.retirement",
     "DetailType": "AWS Health Event",
-    "Detail": "{ \"service\": \"ECS\", \"eventTypeCode\": \"AWS_ECS_TASK_PATCHING_RETIREMENT\", \"eventStatusCode\": \"upcoming\", \"affectedEntities\": [{ \"entityValue\": \"arn:aws:ecs:us-east-1:013545207027:service/poc-test-cluster/nginx-service\" }] }",
+    "Detail": "{ \"service\": \"ECS\", \"eventTypeCode\": \"AWS_ECS_TASK_PATCHING_RETIREMENT\", \"eventStatusCode\": \"upcoming\", \"affectedEntities\": [{ \"entityValue\": \"arn:aws:<account-id>>:service/test-cluster/nginx-service\" }] }",
     "EventBusName": "default"
   }
 ]'
