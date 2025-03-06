@@ -106,6 +106,7 @@ terraform apply           # Apply changes
 terraform refresh         # Sync state with real infrastructure
 terraform state show      # Inspect resource states
 ```
-
+<!---
 ### **Automation Workflow**
 ![Description](https://github.com/cb-gruhanthpuppala/cb-cloudops-automations/blob/main/lambda-eventbridge-terraform-scripts/assets/ecs-task-retirement-automation-flowchart.png?raw=true)
+--->
